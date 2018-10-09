@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" spacing="45.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.HomePaneController">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="136.0" prefWidth="800.0">
+         <children>
+            <Label styleClass="heading-text" stylesheets="@../resources/GISAStyle.css" text="Golf in South Africa" />
+            <Label styleClass="secondaryHeadingText" stylesheets="@../resources/GISAStyle.css" text="Home" />
+         </children>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </VBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#newQouteButtonClick" prefHeight="58.0" prefWidth="59.0" stylesheets="@../resources/GISAStyle.css">
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../resources/Add.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label styleClass="home-text" stylesheets="@../resources/GISAStyle.css" text="New Quote" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#bookingsButtonClick" prefHeight="58.0" prefWidth="59.0" stylesheets="@../resources/GISAStyle.css">
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../resources/Bookings.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label styleClass="home-text" stylesheets="@../resources/GISAStyle.css" text="Bookings" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#suppliersButtonClick" prefHeight="58.0" prefWidth="59.0" stylesheets="@../resources/GISAStyle.css">
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../resources/Suppliers.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label styleClass="home-text" stylesheets="@../resources/GISAStyle.css" text="Suppliers" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#mailButtonClick" prefHeight="58.0" prefWidth="59.0" stylesheets="@../resources/GISAStyle.css">
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../resources/Products.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label styleClass="home-text" stylesheets="@../resources/GISAStyle.css" text="Products" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#packagesButtonClick" prefHeight="58.0" prefWidth="59.0" stylesheets="@../resources/GISAStyle.css">
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../resources/Packages.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label styleClass="home-text" stylesheets="@../resources/GISAStyle.css" text="Packages" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#financeButtonClick" prefHeight="58.0" prefWidth="59.0" stylesheets="@../resources/GISAStyle.css">
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../resources/Invoices.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label styleClass="home-text" stylesheets="@../resources/GISAStyle.css" text="Finance" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#passwordsButtonClick" prefHeight="58.0" prefWidth="59.0" stylesheets="@../resources/GISAStyle.css">
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../resources/Logins.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label styleClass="home-text" stylesheets="@../resources/GISAStyle.css" text="Logins" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#documentsButtonClick" prefHeight="58.0" prefWidth="59.0" stylesheets="@../resources/GISAStyle.css">
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../resources/Documents.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label styleClass="home-text" stylesheets="@../resources/GISAStyle.css" text="Documents" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#logOutButtonClick" prefHeight="58.0" prefWidth="59.0" stylesheets="@../resources/GISAStyle.css">
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../resources/Logout.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label styleClass="home-text" stylesheets="@../resources/GISAStyle.css" text="Log Out" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>
